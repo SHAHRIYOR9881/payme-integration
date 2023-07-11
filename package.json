@@ -1,0 +1,20 @@
+{
+  "name": "payme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "node app.js"
+  },
+  "author": "Isomiddinov Shahriyor & Masatov Samandar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^5.5.0",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.15"
+  }
+}
